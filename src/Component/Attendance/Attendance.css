@@ -1,0 +1,128 @@
+.outerbox{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* height: 100vh; */
+}
+
+.innerbox{
+    width: 50%;
+    padding: 32px 12px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-radius: 18px;
+    margin-top: 21px ;
+    margin-bottom: 21px ;
+}
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.text1{
+    color: Black;
+    font-size: 21px !important;
+    font-weight: 600 !important;
+}
+
+.data{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Details{
+    width: 25%;
+    align-items: center;
+    margin: auto;
+    text-align: center;
+    color: black;
+    border-right: 0.5px solid black;
+}
+.Detail{
+    width: 25%;
+    align-items: center;
+    margin: auto;
+    text-align: center;
+    color: black;
+}
+.Details h6{
+    font-size: 16px;
+    color: black;
+    font-weight: 600;
+}
+.Detail h6{
+    font-size: 16px;
+    color: black;
+    font-weight: 600;
+}
+.Details p{
+    font-size: 18px;
+    font-weight: 600;
+}
+.Detail p{
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.present{
+    color: green !important;
+}
+.Absent{
+    color: red !important;
+}
+.Half-day{
+    color: orange !important;
+}
+.paid-holiday{
+    color: rgb(132, 14, 243)
+}
+
+.section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 2px solid black;
+    margin: 5px;
+    margin-top: 10px;
+}
+.section a{
+    width: 25%;
+    align-items: center;
+    margin: auto;
+    text-align: center;
+    color: black;
+    text-decoration: none;
+    padding: 10px;
+}
+.btns p{
+    color: black;
+    font-size: 15px;
+    font-weight: 500;
+}
+.cardsbox h4 {
+    font-size: 20px;
+    color: gray;
+    margin: 0px 28px;
+}
+
+/* Styles for screens with a width up to 425 pixels */
+@media (max-width: 425px) {
+    .innerbox{
+      width: 90%;
+    }
+    .Details h6{
+        font-size: 12px;
+        font-weight: 500;
+    }
+    .Detail h6{
+        font-size: 12px;
+        font-weight: 500;
+    }
+    .Details p{
+        font-size: 15px;
+    }
+    .Detail p{
+        font-size: 15px;
+    }
+  }

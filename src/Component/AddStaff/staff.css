@@ -1,0 +1,41 @@
+.outerbox {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.innerbox {
+  width: 50%;
+  padding: 32px 21px;
+  text-align: left;
+  border-radius: 15px;
+  color: blue;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.innerbox h3 {
+  font-size: 27px;
+  font-weight: 600;
+  color: black !important;
+  text-align: left;
+}
+Button {
+  width: 100%;
+  background-color: rgb(42, 189, 247) !important;
+  font-size: 15px !important;
+  font-weight: 500 !important;
+  border: none !important;
+  color: white !important;
+}
+ .form_label {
+  color: black !important;
+}
+
+/* Styles for screens with a width up to 425 pixels */
+@media (max-width: 425px) {
+  .innerbox {
+    width: 80%;
+  }
+}

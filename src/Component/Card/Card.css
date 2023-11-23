@@ -1,0 +1,72 @@
+/* Card.css */
+
+.card {
+  width: 95%;
+  border: 1.5px solid #ddd;
+  border-radius: 8px;
+  margin: auto;
+  margin-top: 10px;
+}
+
+.card-body {
+  padding: 15px;
+}
+.card-details {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.card-title {
+  font-size: 1.2rem;
+}
+
+.card-text {
+  color: #555;
+}
+
+.tags-container {
+  display: flex;
+  gap: 5px;
+  margin-top: 10px;
+  justify-content: space-between;
+}
+.tags-containers {
+  display: flex;
+  gap: 5px;
+  justify-content: space-between;
+  cursor: pointer;
+}
+
+.tag {
+  background-color: #ddd;
+  padding: 5px 10px;
+  border-radius: 5px;
+  color: #555;
+  font-weight: 500;
+  gap: 5px;
+  display: flex;
+  align-items: center;
+}
+.tag:hover {
+  background-color: rgb(10, 158, 10);
+  color: white;
+  cursor: pointer;
+}
+.tagInfo {
+  background-color: rgb(10, 158, 10);
+  padding: 5px 10px;
+  border-radius: 5px;
+  color: white;
+  font-weight: 500;
+  gap: 5px;
+  display: flex;
+  align-items: center;
+}
+
+/* Styles for screens with a width up to 425 pixels */
+@media (max-width: 425px) {
+  .tag {
+    padding: 5px;
+    font-size: 12px;
+  }
+}
